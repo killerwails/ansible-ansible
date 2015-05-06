@@ -10,13 +10,13 @@ Tunables
 
 Dependencies
 ------------
-* [colstrom.python](https://github.com/colstrom/ansible-python/)
+* [telusdigital.python](https://github.com/telusdigital/ansible-python/)
 
 Example Playbook
 ----------------
     - hosts: servers
       roles:
-         - role: colstrom.ansible
+         - role: telusdigital.ansible
 
 License
 -------
