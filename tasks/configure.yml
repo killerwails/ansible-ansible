@@ -3,7 +3,7 @@
   file:
     state: directory
     path: /etc/ansible
-    owner: root
+    owner: staff
     group: wcadmin
     mode: 0775
   tags:
@@ -15,7 +15,7 @@
   template:
     src: "{{ item }}"
     dest: "/{{ item }}"
-    owner: root
+    owner: staff
     group: wcadmin
     mode: 0664
   with_items:
