@@ -16,7 +16,7 @@ Example Playbook
 ----------------
     - hosts: servers
       roles:
-         - role: telusdigital.ansible
+         - role: telusdigital.yo-dawg
 
 License
 -------
