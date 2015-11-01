@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - role: telusdigital.python
+      python_legacy_support: yes
+      python_packages:
+        - ansible
+    - role: ansible-ansible
