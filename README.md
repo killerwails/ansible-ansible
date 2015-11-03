@@ -2,6 +2,7 @@
 
 Ansible is Simple IT Automation
 
+[![Build Status](https://travis-ci.org/telusdigital/ansible-ansible.svg?branch=master)](https://travis-ci.org/telusdigital/ansible-ansible)
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
 Tunables
