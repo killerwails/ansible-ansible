@@ -19,7 +19,7 @@
     group: staff
     mode: 0664
   with_items:
-    - etc/ansible/hosts 
+    - etc/ansible/hosts
     - etc/ansible/ansible.cfg
   tags:
     - template-configuration
