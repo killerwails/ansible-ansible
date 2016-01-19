@@ -6,7 +6,7 @@ describe 'ansible-ansible::default' do
     it { should be_directory }
   end
 
-  describe file('etc/ansible/hosts') do
+  describe file('/etc/ansible/hosts') do
     it { should exist }
   end
 
