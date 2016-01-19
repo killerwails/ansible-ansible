@@ -1,5 +1,5 @@
 ---
-rvm: 2.2
+rvm: 2.1
 sudo: required
 # docker is required to run tests
 services: docker
