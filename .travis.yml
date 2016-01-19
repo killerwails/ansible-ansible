@@ -10,4 +10,3 @@ install:
 script:
   # run kitchen tests (destroy, create, converge, setup, verify and destroy)
   - bundle exec kitchen test
-  - cat .kitchen/logs/default-ubuntu-1404.log
